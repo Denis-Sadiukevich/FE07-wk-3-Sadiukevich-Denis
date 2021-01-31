@@ -1,0 +1,111 @@
+.exercise {
+   width: 100%; 
+   background: #e5e5e5;
+}
+
+.exercise-container {
+   max-width: 1170px;
+   padding: 0, 15px;
+   margin: auto;
+}
+
+.exercise-title {
+   padding-top: 80px;
+   font-size: 36px;
+   text-align: center;
+   color: #212121;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+}
+
+.exercise-line {
+   border-bottom: 1px solid #D98943;
+   padding-top: 34px;
+   max-width: 64px;
+   margin: auto;
+}
+
+.exercise-discription {
+   padding-top: 34px;
+   font-size: 14px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color: #86878B;
+}
+
+.exercise-row {
+   display: flex;
+   justify-content: center;
+   margin-left: 113px;
+   margin-right: 112px;
+   padding-bottom: 80px;
+}
+
+.exercise-item {
+   margin-top: 63px;
+   width: 340px;
+   padding-left: 39px;
+   padding-right: 39px;
+   text-align: center;
+}
+
+.first-list {
+   line-height: 50px;
+   background-color: #333333;
+   color: #ffffff;
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+  
+}
+
+.second-list {
+   line-height: 100px;
+   background-color: #333333;
+   margin-top: 1px;
+   font-size: 35px;
+   color: #ffffff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+}
+
+.second-list1 {
+   line-height: 100px;
+   background-color: #333333;
+   margin-top: 2px;
+   font-size: 35px;
+   color: #ffffff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+}
+
+.thethird-list {
+   line-height: 50px;
+   background-color: #333333;
+   margin-top: 2px;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+}
+
+.thethird-list1 {
+   line-height: 50px;
+   background-color: #D98943;
+   margin-top: 2px;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+}
+
+.fourth-list {
+   line-height: 40px;
+   background-color: #ffffff;
+   margin-top: 4px;
+   color: #86878B;
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
