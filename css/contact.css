@@ -1,0 +1,60 @@
+.contact {
+   width: 100%;
+}
+
+.container {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: auto;
+}
+
+.contact__title {
+   padding-top: 80px;
+   font-size: 36px;
+   text-align: center;
+   color: #212121;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+}
+
+.contact__title::after {
+   content: "";
+   display: block;
+   width: 64px;
+   height: 2px;
+   background-color: #E72424;
+   margin: auto;
+   margin-top: 34px;
+
+}
+
+.contact__discription {
+   margin-top: 34px;
+   font-size: 14px;
+   text-align: center;
+   color: #86878B;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+.contact-box {
+   display: flex;
+   margin: 91px -15px 0;
+}
+
+.contact-item__text {
+   font-size: 14px;
+   text-align: start;
+   color: #BDBDBD;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+
+}
+
+.contact-item__password {
+   font-size: 14px;
+   text-align: start;
+   color: #BDBDBD;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
