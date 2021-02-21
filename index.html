@@ -16,21 +16,21 @@
 
       <div class="container">
 
-         <div class="header-class">
+         <div class="header-row">
 
-            <div class="header-title">
+            <div class="logo">
 
-               <a class="header-title__link" href="#">AX<span class="header-title__color">IT</span></a>
+               <a class="logo__link" href="#">AX<span class="logo__color">IT</span></a>
 
             </div>
 
             <nav class="header-navigation">
                <ul class="header-navigation-list">
-                  <li ><a class="header-list__items" href="#">Feautures</a></li>
-                  <li ><a class="header-list__items" href="#">About</a></li>
-                  <li ><a class="header-list__items" href="#">Pricing</a></li>
-                  <li ><a class="header-list__items" href="#">Reviews</a></li>
-                  <li ><a class="header-list__items" href="#">Contact</a></li>
+                  <li class="list__item" ><a class="list__link" href="#">Feautures</a></li>
+                  <li class="list__item" ><a class="list__link" href="#">About</a></li>
+                  <li class="list__item" ><a class="list__link" href="#">Pricing</a></li>
+                  <li class="list__item" ><a class="list__link" href="#">Reviews</a></li>
+                  <li class="list__item" ><a class="list__link" href="#">Contact</a></li>
                </ul>
                
             </nav>
@@ -58,38 +58,15 @@
 
          </div>
 
-         <div class="socialmedia-icons">
-
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-facebook-f"></i> 
-            </div>  
-
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-twitter"></i> 
-            </div>  
-            
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-google-plus-g"></i> 
-            </div>  
-
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-linkedin-in"></i> 
-            </div>  
-
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-instagram-square"></i>
-            </div>  
-
-            <div class="socialmedia-icons__item">
-               <i class="fab fa-stumbleupon"></i>
-            </div>  
-
-            <div class="socialmedia-icons__item">
-               <i class="fas fa-rss"></i>
-            </div>  
-
-         </div>
-
+         <ul class="socialmedia-list">
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fab fa-stumbleupon"></i></a></li>
+            <li class="socialmedia-list-item"><a class="socialmedia-item__link" href="#"><i class="fas fa-rss"></i></a></li>
+         </ul>
 
       </div>
 
@@ -213,7 +190,7 @@
                </ul>
             </div>
 
-            <div class="exercise-row-item transblock">
+            <div class="exercise-row-item">
                
                <ul class="exercise-item-list">
 
@@ -429,10 +406,7 @@
                <a class="axure-button__text" href="#">
                   Download
                </a>
-               <!-- <p class="axure-button__text">
-                  Download
-               </p> -->
-
+               
             </div>
                
 
@@ -456,33 +430,61 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          </p>
 
-         <div class="contact-box">
+         <form action="#" name="contact" method="POST">
 
-            <div class="contact-box-item">
+            <div class="contact-row">
 
-               <p class="contact-item__text">
-                  Name
-               </p>
+               <div class="contact-row__info">
 
-               <p class="contact-item__text">
-                  Email
-               </p>
+                  <div class="contact-info__name">
+                     <label class="contact__name__discription" for="name">
+                        Name
+                     </label> 
+                     <input class="contact__name__content" type="text" name="name">
+                  </div>
+                  
+                  <div class="contact-info__email">
+                     <label class="contact__email__discription" for="email">
+                        Email
+                     </label> 
+                     <input class="contact__email__content" type="email" name="email">
+                  </div>
+                                    
+                  <div class="contact-info__password">
+                     <label class="contact__password__discription" for="password">
+                        Password
+                     </label> 
+                     <input class="contact__password__content" type="password" name="password">
+                  </div>
+                                    
+               </div>
 
-               <p class="contact-item__password">
-                  Password
-               </p>
+               <div class="contact-row__text">
+
+                  <div class="contact-text__name">
+                     <label class="contact-name__message" for="message">
+                        Message
+                     </label> 
+                  </div>
+
+                  <div class="contact-text__box">
+                     <textarea class="contact-box__message" name="message">
+
+                     </textarea>
+                  </div>
+
+                  
+               </div>
 
             </div>
 
-            <div class="contact-box-item">
+            <div class="contact-button">
+               <button class="contact-button__send" type="submit">
+                  Send Message
+               </button> 
+            </div>            
 
-               <p class="contact-item__message">
-                  Message
-               </p>
-
-            </div>
-
-         </div>
+         </form>
 
 
       </div>
@@ -492,43 +494,23 @@
    <footer class="social">
 
       <div class="container">
-         <div class="social-image">
-            <div class="social__icon">
-               <i class="fab fa-facebook-f"></i> 
-            </div>  
 
-            <div class="social__icon">
-               <i class="fab fa-twitter"></i> 
-            </div>  
+         <ul class="social-list">
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fab fa-stumbleupon"></i></a></li>
+            <li class="social-list-icon"><a class="social-icon__link" href="#"><i class="fas fa-rss"></i></a></li>
+         </ul>
             
-            <div class="social__icon">
-               <i class="fab fa-google-plus-g"></i> 
-            </div>  
-
-            <div class="social__icon">
-               <i class="fab fa-linkedin-in"></i> 
-            </div>  
-
-            <div class="social__icon">
-               <i class="fab fa-instagram-square"></i>
-            </div>  
-
-            <div class="social__icon">
-               <i class="fab fa-stumbleupon"></i>
-            </div>  
-
-            <div class="social__icon">
-               <i class="fas fa-rss"></i>
-            </div>  
-               
-
-         </div>
 
          <div class="social-license">
             <p class="social-license__text">
-               © 2015 Axure Themes
+                © 2015 Axure Themes
             </p>
-         </div>
+         </div>      
       
       </div>
          

@@ -3,24 +3,32 @@
    background-color: #000000;
 }
 
-.container {
-   max-width: 1170px;
-   padding: 0 15px;
-   margin: auto;
-}
 
-.social-image {
+.social-list {
    display: flex;
    justify-content: center;
-   margin: 0 -15px;
    padding-top: 30px;
 }
 
-.social__icon {
+
+.social-list-icon {
    margin: 0 15px;
-   font-size: 23px;
-   color: #BDBDBD;
+   transition: 0.3s ease;   
 }
+
+.social-list-icon:hover {
+   transform: scale(1.3);   
+}
+
+.social-icon__link {
+   color: #BDBDBD;
+   font-size: 23px;
+}
+
+.social-icon__link:hover {
+   color: #f06c93;
+}
+
 
 .social-license__text {
    font-size: 12px;

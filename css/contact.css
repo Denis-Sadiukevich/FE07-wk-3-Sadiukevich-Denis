@@ -2,11 +2,6 @@
    width: 100%;
 }
 
-.container {
-   max-width: 1170px;
-   padding: 0 15px;
-   margin: auto;
-}
 
 .contact__title {
    padding-top: 80px;
@@ -37,24 +32,89 @@
    font-weight: 400;
 }
 
-.contact-box {
+.contact-row {
    display: flex;
-   margin: 91px -15px 0;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 95px -15px 0;
+   
 }
 
-.contact-item__text {
+.contact-row__info {
+   margin: 0 15px;
+   max-width: 480px;
+   width: 100%;
+}
+
+.contact__name__discription, .contact__email__discription, .contact__password__discription {
    font-size: 14px;
    text-align: start;
    color: #BDBDBD;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
-
 }
 
-.contact-item__password {
+.contact__name__content, .contact__email__content {
+   width: 100%;
+   line-height: 32px;
+   margin-bottom: 32px;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD;
+}
+
+.contact__password__content {
+   width: 100%;
+   line-height: 32px;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD;
+}
+
+
+
+.contact-row__text {
+   margin: 0 15px;
+   max-width: 480px;
+   width: 100%;
+}
+
+.contact-name__message {
    font-size: 14px;
    text-align: start;
    color: #BDBDBD;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
+}
+
+.contact-box__message {
+   width: 100%;
+   line-height: 32px;
+   height: 209px;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD;
+}
+
+.contact-button {
+   text-align: center;
+   margin: 68px 0 44px;
+}
+
+.contact-button__send {
+   margin: auto;
+   font-size: 15px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   padding: 11px 32px;
+   background-color: #EC7979;
+   color: #FFFFFF;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.contact-button__send:hover {
+   transform: scale(1.1);
+   background-color: #E72424;
+   color: black;
 }

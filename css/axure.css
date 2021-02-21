@@ -50,7 +50,7 @@
 .axure-button {
    padding-bottom: 38px;
    text-align: center;
-
+   transition: 1s;
 }
 
 .axure-button__text {
@@ -62,5 +62,16 @@
    color: #FFFFFF;
    padding: 11px 26px;
    border: 1px solid #FFFFFF;
-   width: 135px;
+   width: 135px;  
+   transition: 1s;
+}
+
+.axure-button:hover {
+   transform: scale(1.1);
+   
+}
+
+.axure-button__text:hover {
+   border-color: #E72424;
+   color: #E72424;
 }
