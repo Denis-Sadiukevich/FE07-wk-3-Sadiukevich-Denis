@@ -1,0 +1,183 @@
+.modern {
+   width: 100%;
+   background: url('/image/city/background-1\ 1.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.modern-tinting {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.55);
+}
+
+.container-row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.modern-logo {
+   padding-top: 109px;
+}
+
+.logo-link{
+   color: #FFFFFF;
+   font-size: 60px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.logo-color {
+   color: #f06c93;
+   font-size: 60px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.modern-title {
+   padding-top: 32px;
+   font-size: 36px;
+   color: #FFFFFF;
+   max-width: 544px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+}
+
+.modern-title:after {
+   content: '';
+   display: block;
+   width: 64px;
+   height: 1px;
+   margin-top: 32px;
+   background-color: #FFFFFF;
+}
+
+.modern-paragraph {
+   padding-top: 39px;
+   font-size: 16px;
+   color: rgba(255, 255, 255, 0.8);
+   max-width: 282px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+}
+
+.modern-button {
+   padding-top: 39px;
+   padding-bottom: 101px;
+   text-align: start;
+   transition: 1s;
+   max-width: 135px;
+}
+
+.modern-button__text {
+   margin: auto;
+   font-size: 15px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   color: #FFFFFF;
+   padding: 11px 26px;
+   border: 1px solid #FFFFFF;
+   transition: 1s;
+}
+
+.modern-button:hover {
+   transform: scale(1.1);
+   
+}
+
+.modern-button__text:hover {
+   border-color: #E72424;
+   color: #E72424;
+}
+
+.modern-rightbox {
+   margin-top: 109px;
+   background-color: #FFFFFF;
+   max-width: 370px;
+   height: 370px;
+   border-radius: 8px;
+}
+
+.rightbox-title__text {
+   margin: auto;
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #333333;
+   padding: 18px 59px;
+}
+
+.rightbox-title__color {
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #EC7979;
+}
+
+.rightbox-free__name {
+   margin-top: 44px;
+   max-width: 252px;
+   padding-left: 59px;
+}
+
+
+.rightbox-free__email, .rightbox-free__password {
+   max-width: 252px;
+   padding-left: 59px;
+}
+
+
+.rightbox__name__discription, .rightbox__email__discription, .rightbox__password__discription {
+   font-size: 14px;
+   text-align: start;
+   color: #BDBDBD;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+.rightbox__name__content, .rightbox__email__content {
+   width: 100%;
+   line-height: 16px;
+   margin-bottom: 16px;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD;
+}
+
+.rightbox__password__content {
+   width: 100%;
+   line-height: 19px;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD;
+}
+
+.modern-rightbox-button {
+   text-align: center;
+   margin-top: 46px;
+   max-width: 370px;
+   
+}
+
+.rightbox-button__send {
+   width: 100%;
+   height: 54px;
+   margin: auto;
+   font-size: 15px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   padding: 11px 32px;
+   background-color: #EC7979;
+   color: #FFFFFF;
+   cursor: pointer;
+   border: 0;
+   border-radius: 0 0 8px 8px;
+   transition: 1s;
+}
+
+.rightbox-button__send:hover {
+   background-color: #E72424;
+   color: black;
+}
