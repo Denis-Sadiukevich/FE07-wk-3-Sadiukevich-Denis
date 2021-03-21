@@ -94,9 +94,9 @@
 
 .modern-rightbox {
    margin-top: 109px;
+   margin-bottom: 120px;
    background-color: #FFFFFF;
    max-width: 370px;
-   height: 370px;
    border-radius: 8px;
 }
 
@@ -157,8 +157,7 @@
 .modern-rightbox-button {
    text-align: center;
    margin-top: 46px;
-   max-width: 370px;
-   
+   width: 100%;
 }
 
 .rightbox-button__send {

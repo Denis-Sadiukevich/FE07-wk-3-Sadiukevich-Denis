@@ -36,19 +36,18 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   margin: 95px -15px 0;
+   margin: 0 -15px;
    
 }
 
 .contact-row__info {
-   margin: 0 15px;
+   margin: 95px 15px 0;
    max-width: 480px;
    width: 100%;
 }
 
 .contact__name__discription, .contact__email__discription, .contact__password__discription {
    font-size: 14px;
-   text-align: start;
    color: #BDBDBD;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
@@ -74,22 +73,21 @@
 
 
 .contact-row__text {
-   margin: 0 15px;
+   margin: 95px 15px 0;
    max-width: 480px;
    width: 100%;
 }
 
 .contact-name__message {
    font-size: 14px;
-   text-align: start;
    color: #BDBDBD;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
 }
 
+
 .contact-box__message {
    width: 100%;
-   line-height: 32px;
    height: 209px;
    outline: none;
    border: 0;

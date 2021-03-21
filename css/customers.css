@@ -39,6 +39,7 @@
 .customers-row {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    margin: 67px -15px 0;
    padding-bottom: 119px;
 }
@@ -78,19 +79,17 @@
 
 .customers-item-information {
    display: flex;
-   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 22px;
   
 }
 
 .customers-information__image {
-   margin-top: 22px;
-   margin-left: 55px;
-   border-radius: 35px;
+   border-radius: 50%;
 }
 
 .customers-information-text {
-   margin-left: 45px;
-   margin-top: 30px;
    text-align: end;   
 }
 

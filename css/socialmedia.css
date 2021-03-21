@@ -8,6 +8,11 @@
 .container-first {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.socialmedia-text {
+   max-width: 365px;
 }
 
 .socialmedia-text__title {

@@ -7,6 +7,7 @@
 @import url("/css/axit.css");
 @import url("/css/socialmedia.css");
 @import url("/css/modern.css");
+@import url("/css/feautures.css");
 
 
 
@@ -22,3 +23,48 @@
    padding: 0 15px;
    margin: auto;
 }
+
+@media (max-width: 1200px) {
+   .awesome-row, .exercise-row, .contact-row, .feautures-row {
+      justify-content: space-around;
+   }
+   
+}
+
+@media (max-width: 992px) {
+   .customers-row, .container-row {
+      justify-content: space-around;
+   }
+   .socialmedia-text {
+      margin: auto;
+      max-width: 100%;
+      text-align: center;
+   }
+   .socialmedia-icons {
+      margin: auto;
+      margin-bottom: 35px;
+   }
+}
+
+@media (max-width: 768px) {
+   .feautures-row-tabs {
+      display: flex;
+      
+   }
+   .child-one, .child-two, .child-three {
+      margin: 25px 5px 0;
+   }
+   .feautures-text-subtitle, .feautures-text-content {
+      text-align: center;
+   }
+   .feautures-text-button {
+      margin: auto;
+   }
+   
+   .list__link {
+      margin-left: 0px;
+      margin-right: 48px;
+   }
+   
+
+} 

@@ -42,11 +42,11 @@
    flex-wrap: wrap;
    justify-content: space-between;
    padding-bottom: 80px;
-   margin: 62px -15px 0;
+   margin: 0 -15px;
 }
 
 .exercise-row-item {
-   margin: 0 15px;
+   margin: 62px 15px 0;
    width: 340px;
    text-align: center;
    transition: 1s;
@@ -54,6 +54,7 @@
 
 .exercise-row-item:hover {
    transform: translateY(-15px);
+   box-shadow: 0 15px 10px 5px #333333;
 }
 
 .exercise-list__first {
